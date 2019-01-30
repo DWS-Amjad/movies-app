@@ -1,0 +1,45 @@
+<h2>My Movies</h2>
+
+<!--<div>
+  <div *ngFor="let movie of movies">
+    <a routerLink="/detail/{{movie.id}}">
+      <div><img src="{{movie.image}}" /></div>
+      <div>{{movie.id}}.{{movie.name}}</div>
+    </a>
+    <button class="delete" title="delete movie" (click)="delete(movie)">x</button>
+  </div>
+  
+</div>cols="cols | async"-->
+
+  <mat-grid-list [cols]="cols | async"  gutterSize="16px">
+    
+  <mat-grid-tile *ngFor="let movie of movies" style.border="3" style="width: 100%; display: flex; align-items: flex-start;">
+    <mat-grid-tile-header>
+      <span>{{movie.id}}.{{movie.name}}</span>
+      </mat-grid-tile-header>
+      <a routerLink="/detail/{{movie.id}}">
+      <img mat-card-image src="{{movie.image}}" />
+      
+    </a>
+    <!--<button class="delete" title="delete movie" (click)="delete(movie)">x</button>-->
+  </mat-grid-tile>
+</mat-grid-list>
+
+<!-- (click) passes input value to add() and then clears the input -->
+<!--<button (click)="add(heroName.value); heroName.value=''">
+  add
+</button>-->
+<!--<app-movie-detail [movie]="selectedMovie"></app-movie-detail>-->
+<!--[class.selected]="movie === selectedMovie"-->
+
+<!--
+<div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+  <mat-card class="card-picture" *ngFor="let movie of movies">
+    <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
+      <span fxFlex="80%">{{movie.name}}</span>
+      <mat-icon fxFlex="10%">mode_edit</mat-icon>
+      <mat-icon fxFlex="10%">delete</mat-icon>
+    </mat-card-title>
+    <img mat-card-image src="{{movie.image}}">
+  </mat-card>
+</div>-->
