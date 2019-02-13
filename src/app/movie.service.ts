@@ -73,12 +73,12 @@ export class MovieService {
   /** POST: add a new movie to the server */
   addMovie(movie: Movie): Observable<Movie> {
     return this.http.post<Movie>(this.moviesUrl, movie, httpOptions).pipe(
-      tap((movie: Movie) => this.log(`added hero w/ id=${movie.id}`)),
+      tap((movie: Movie) => this.log(`added movie w/ id=${movie.id}`)),
       catchError(this.handleError<Movie>('addMovie'))
     );
   }
 
-  /** DELETE: delete the hero from the server */
+  /** DELETE: delete the movie from the server */
   deleteMovie(movie: Movie | number): Observable<Movie> {
     const id = typeof movie === 'number' ? movie : movie.id;
     const url = `${this.moviesUrl}/${id}`;
@@ -102,8 +102,8 @@ export class MovieService {
   }
   
 
-  /** Log a HeroService message with the MessageService */
+  /** Log a MovieService message with the MessageService */
   private log(message: string) {
-    this.messageService.add(`HeroService: ${message}`);
+    this.messageService.add(`MovieService: ${message}`);
   }
 }

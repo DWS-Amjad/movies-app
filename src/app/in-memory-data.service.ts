@@ -12,7 +12,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 1,
         "name": "Annihilation",
-        "image": "../assets/images/annihilation.jpg",
+        "image": "/movies-app/assets/images/annihilation.jpg",
         "rating": "3",
         "genre": "Comedy",
         "summary": "Annihilation summary Annihilation summary Annihilation summary Annihilation summary Annihilation summary"
@@ -20,7 +20,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 2,
         "name": "Black Panther",
-        "image": "../assets/images/blackPanther.jpg",
+        "image": "/movies-app/assets/images/blackPanther.jpg",
         "rating": "4",
         "genre": "Family",
         "summary": "Black Panther summary Black Panther summary Black Panther summary Black Panther summary Black Panther summary"
@@ -28,7 +28,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 3,
         "name": "Blade Runner",
-        "image": "../assets/images/bladeRunner.jpg",
+        "image": "/movies-app/assets/images/bladeRunner.jpg",
         "rating": "4",
         "genre": "Sci-Fi, Thriller",
         "summary": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator."
@@ -36,7 +36,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 4,
         "name": "How to Train Your Dragon",
-        "image": "../assets/images/dragon.jpg",
+        "image": "/movies-app/assets/images/dragon.jpg",
         "rating": "4",
         "genre": "Animation, Action, Adventure",
         "summary": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
@@ -44,7 +44,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 5,
         "name": "Dunkirk",
-        "image": "../assets/images/dunkirk.jpg",
+        "image": "/movies-app/assets/images/dunkirk.jpg",
         "rating": "4",
         "genre": "Action, Drama, History",
         "summary": "Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army, and evacuated during a fierce battle in World War II."
@@ -52,7 +52,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 6,
         "name": "Get Out",
-        "image": "../assets/images/getOut.jpg",
+        "image": "/movies-app/assets/images/getOut.jpg",
         "rating": "4",
         "genre": "Horror, Mystery, Thriller",
         "summary": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point."
@@ -60,7 +60,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 7,
         "name": "Iron Man",
-        "image": "../assets/images/ironMan.jpg",
+        "image": "/movies-app/assets/images/ironMan.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Sci-Fi",
         "summary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
@@ -68,7 +68,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 8,
         "name": "Lady Bird",
-        "image": "../assets/images/ladyBird.jpg",
+        "image": "/movies-app/assets/images/ladyBird.jpg",
         "rating": "4",
         "genre": "Comedy, Drama",
         "summary": "In 2002, an artistically inclined seventeen-year-old girl comes of age in Sacramento, California."
@@ -76,7 +76,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 9,
         "name": "Sherlock Holmes",
-        "image": "../assets/images/sherlockHolmes.jpg",
+        "image": "/movies-app/assets/images/sherlockHolmes.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Crime",
         "summary": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England."
@@ -84,7 +84,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 10,
         "name": "Spider Man",
-        "image": "../assets/images/spiderMan.jpg",
+        "image": "/movies-app/assets/images/spiderMan.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Sci-Fi",
         "summary": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family."
@@ -92,7 +92,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 11,
         "name": "Star Wars",
-        "image": "../assets/images/starWars.jpg",
+        "image": "/movies-app/assets/images/starWars.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Fantasy",
         "summary": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
@@ -100,7 +100,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 12,
         "name": "The Shape of Water",
-        "image": "../assets/images/theShapeOfWater.jpg",
+        "image": "/movies-app/assets/images/theShapeOfWater.jpg",
         "rating": "4",
         "genre": "Adventure, Drama, Fantasy",
         "summary": "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity."
@@ -108,7 +108,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 13,
         "name": "Thor",
-        "image": "../assets/images/thor.jpg",
+        "image": "/movies-app/assets/images/thor.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Fantasy",
         "summary": "The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders."
@@ -116,7 +116,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 14,
         "name": "Transformers",
-        "image": "../assets/images/transformers.jpg",
+        "image": "/movies-app/assets/images/transformers.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Sci-Fi",
         "summary": "Autobots and Decepticons are at war, with humans on the sidelines. Optimus Prime is gone. The key to saving our future lies buried in the secrets of the past, in the hidden history of Transformers on Earth."
@@ -124,7 +124,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 15,
         "name": "Wonder Woman",
-        "image": "../assets/images/wonderWoman.jpg",
+        "image": "/movies-app/assets/images/wonderWoman.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Fantasy",
         "summary": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny."
@@ -132,7 +132,7 @@ export class InMemoryDataService implements InMemoryDbService{
       {
         id: 16,
         "name": "X Men",
-        "image": "../assets/images/xMen.jpg",
+        "image": "/movies-app/assets/images/xMen.jpg",
         "rating": "4",
         "genre": "Action, Adventure, Sci-Fi",
         "summary": "In the 1980s the X-Men must defeat an ancient all-powerful mutant, En Sabah Nur, who intends to thrive through bringing destruction to the world."

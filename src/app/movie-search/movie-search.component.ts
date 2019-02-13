@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { Observable, Subject } from 'rxjs';
 
@@ -15,6 +15,7 @@ import { MovieService } from '../movie.service';
   styleUrls: ['./movie-search.component.css']
 })
 export class MovieSearchComponent implements OnInit {
+  
   movies$: Observable<Movie[]>;
   private searchTerms = new Subject<string>();
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { Movie } from '../movie';
 import { MovieService } from '../movie.service';
@@ -12,7 +12,7 @@ import { Observable} from 'rxjs';
   styleUrls: ['./movies.component.css']
 })
 export class MoviesComponent implements OnInit {
-  movies: Movie[];
+   movies: Movie[];
   //selectedMovie: Movie;
 
   /**
@@ -26,10 +26,10 @@ export class MoviesComponent implements OnInit {
     this.getMovies();
     const grid = new Map([
       ["xs", 1],
-      ["sm", 2],
-      ["md", 2],
-      ["lg", 3],
-      ["xl", 3]
+      ["sm", 3],
+      ["md", 3],
+      ["lg", 4],
+      ["xl", 4]
     ]);
     let start: number;
     grid.forEach((cols, mqAlias) => {

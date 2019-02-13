@@ -6,35 +6,36 @@
     </mat-card-header>
     <mat-card-content >
       
-        <div class="example-container">
-          <mat-form-field >
+      <div class="example-container">
+        <mat-form-field >
           <input matInput readonly="true" placeholder="Id" value='{{movie.id}}'>
-        </mat-form-field></div>
-        <div class="example-container">
-          <mat-form-field appearance="outline" >
-          <mat-label>name</mat-label>
-          <input matInput color="primary" [(ngModel)]="movie.name" [ngModelOptions]="{standalone: true}" placeholder="name">
         </mat-form-field>
       </div>
+        <div class="example-container">
+          <mat-form-field appearance="outline" >
+            <mat-label>name</mat-label>
+            <input matInput color="primary" [(ngModel)]="movie.name" [ngModelOptions]="{standalone: true}" placeholder="name">
+          </mat-form-field>
+        </div>
         <div class="example-container">
           <img mat-card-image style="margin:0px 16px 16px 0px" src="{{movie.image}}" />
         </div>
         <div class="example-container">
           <mat-form-field >
-          <input matInput color="primary" [(ngModel)]="movie.rating" [ngModelOptions]="{standalone: true}" placeholder="rating">
-        </mat-form-field>
-      </div>
+            <input matInput color="primary" [(ngModel)]="movie.rating" [ngModelOptions]="{standalone: true}" placeholder="rating">
+          </mat-form-field>
+        </div>
         <div class="example-container">
-          <mat-form-field class="example-full-width">
-          <input matInput color="primary" [(ngModel)]="movie.genre" [ngModelOptions]="{standalone: true}" placeholder="genre">
-        </mat-form-field>
-      </div>
+          <mat-form-field >
+            <input matInput color="primary" [(ngModel)]="movie.genre" [ngModelOptions]="{standalone: true}" placeholder="genre">
+          </mat-form-field>
+        </div>
         <div class="example-container">
-          <mat-form-field class="example-full-width">
-          <textarea matInput color="primary" [(ngModel)]="movie.summary" [ngModelOptions]="{standalone: true}" placeholder="summary"
+          <mat-form-field >
+            <textarea matInput color="primary" [(ngModel)]="movie.summary" [ngModelOptions]="{standalone: true}" placeholder="summary"
             rows="4" ></textarea>
-        </mat-form-field>
-      </div>
+          </mat-form-field>
+        </div>
       
     </mat-card-content>
     <mat-card-actions>
